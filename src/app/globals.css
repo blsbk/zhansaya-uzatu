@@ -1,33 +1,54 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap");
+* {
+  font-family: "Dancing Script", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: rgb(113 63 18);
+}
+button {
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-style: none;
+  border-radius: 0.5rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+#noBtn {
+  background-color: rgb(153 27 27);
+  color: white;
+  margin-left: 4%;
+  opacity: 70%;
+}
+#noBtn:hover {
+  background-color: rgb(127 29 29);
+  opacity: 40%;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+#yesBtn {
+  background-color: rgb(22 101 52);
+  color: white;
+  opacity: 70%;
 }
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+#yesBtn:hover {
+  background-color: rgb(20 83 45);
+  opacity: 40%;
+}
+.hidden {
+  display: none;
+}
+.mainPage {
+  background: url("../../public/assets/IMG_4463.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}
+#invitation {
+  position: relative;
+  margin: 5% 5%;
+  font-size: 160%;
 }
