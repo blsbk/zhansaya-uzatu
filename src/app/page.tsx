@@ -10,7 +10,7 @@ export default function Home() {
     <main className="mainPage">
       <div id="invitation">
         <h1>
-          Zhans' Hen Party <br />
+          Zhans&apos; Hen Party <br />
           <span style={{ fontSize: " 30px" }}>
             16.05.2024 <br />
             accept the invitation?
