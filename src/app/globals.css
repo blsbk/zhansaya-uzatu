@@ -39,10 +39,6 @@ button {
   display: none;
 }
 .mainPage {
-  background: url("../../public/assets/IMG_4463.jpg");
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
   align-content: center;
   justify-content: center;
   justify-items: center;
@@ -50,9 +46,13 @@ button {
 #invitation {
   position: relative;
   margin: 5% 5%;
-  font-size: 160%;
+  font-size: 100%;
 }
 html {
+  background-image: url("/assets/IMG_4463.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100%;
   margin: 0;
   height: 100%;
   overflow: hidden;

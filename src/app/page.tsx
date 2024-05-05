@@ -10,8 +10,6 @@ export default function Home() {
   const [noClickCount, setNoClickCount] = useState(0);
   const [currentBtnText, setCurrentButtonText] = useState("No");
 
-  let a = 12;
-
   const declineInvitation = () => {
     setNoClickCount(noClickCount + 1);
 
@@ -33,7 +31,7 @@ export default function Home() {
         "Is that your final answer?",
         "You're breaking my heart ;(",
         "Plsss? :( You're breaking my heart",
-        "JUST CLICK YES",
+        "just CLICK yes",
       ];
 
       return phrases[Math.min(noClickCount, phrases.length - 1)];
