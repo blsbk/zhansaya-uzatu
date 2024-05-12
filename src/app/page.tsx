@@ -8,30 +8,30 @@ export default function Home() {
   };
 
   const [noClickCount, setNoClickCount] = useState(0);
-  const [currentBtnText, setCurrentButtonText] = useState("No");
+  const [currentBtnText, setCurrentButtonText] = useState("no");
 
   const declineInvitation = () => {
     setNoClickCount(noClickCount + 1);
 
     const getNoButtonText = () => {
       const phrases = [
-        "No",
-        "Are you sure?",
-        "Really sure?",
-        "Think again!",
-        "Last chance!",
-        "Surely not?",
-        "You might regret this!",
-        "Give it another thought!",
-        "Are you absolutely certain?",
-        "This could be a mistake!",
-        "Have a heart!",
-        "Don't be so cold!",
-        "Change of heart?",
-        "Is that your final answer?",
-        "You're breaking my heart ;(",
-        "Plsss? :( You're breaking my heart",
-        "just CLICK yes",
+        "no",
+        "are you sure?",
+        "really sure?",
+        "think again!",
+        "last chance!",
+        "surely not?",
+        "you might regret this!",
+        "give it another thought!",
+        "are you absolutely certain?",
+        "this could be a mistake!",
+        "have a heart!",
+        "don't be so cold!",
+        "change of heart?",
+        "is that your final answer?",
+        "you're breaking my heart ;(",
+        "plsss? :( you're breaking my heart",
+        "just click yes",
       ];
 
       return phrases[Math.min(noClickCount, phrases.length - 1)];
@@ -45,15 +45,21 @@ export default function Home() {
   return (
     <main className="mainPage">
       <div id="invitation">
-        <h1>
-          Zhans&apos; Hen Party <br />
-          <span style={{ fontSize: " 30px" }}>
-            16.05.2024 <br />
-            accept the invitation?
-          </span>
+        <h1
+          style={{
+            fontFamily: "Adine Kirnberg",
+            fontSize: "60px",
+            marginBottom: "0px",
+          }}
+        >
+          Zhans&apos; Hen Party
         </h1>
+        <p style={{ fontSize: "30px", marginTop: "0px" }}>
+          16.05.2024 <br />
+          accept the invitation?
+        </p>
         <button id="yesBtn" onClick={acceptInvitation}>
-          Yes
+          yes
         </button>
         <button id="noBtn" onClick={declineInvitation}>
           {currentBtnText}
