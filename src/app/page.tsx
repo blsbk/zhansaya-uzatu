@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export default function Home() {
   const acceptInvitation = () => {
-    window.location.href = "https://tally.so/r/wkYNP6?transparentBackground=1";
+    window.location.href = "https://zhansaya-uzatu.vercel.app/info";
   };
 
   const [noClickCount, setNoClickCount] = useState(0);
