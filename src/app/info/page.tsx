@@ -61,10 +61,10 @@ export default function Home() {
               Dear Zhansaya, we are excited to invite you to the upcoming party!
               We expect you to be in a <span role="img">✨</span>{" "}
               cute-pinterest-girl <span role="img">✨</span> dress for the day
-              and in your comfy pajamas for the night. Pls don't forget your
-              Medet with kal'yan <span role="img">😉</span> <br />
-              While you're waiting, you may read the wishes we've left you by
-              clicking the button in top-right
+              and in your comfy pajamas for the night. Pls don&apos;t forget
+              your Medet with kal&apos;yan <span role="img">😉</span> <br />
+              While you&apos;re waiting, you may read the wishes we&apos;ve left
+              you by clicking the button in top-right
               <span role="img">🩵</span>{" "}
             </p>
           </div>
