@@ -57,10 +57,7 @@ export default function Home() {
           }}
         >
           <div className="w3-row-padding w3-center">
-            <p
-              className="w3-large w3-top"
-              style={{ fontFamily: "Dancing Script" }}
-            >
+            <p className="w3-large" style={{ fontFamily: "Dancing Script" }}>
               Dear Zhansaya, we are excited to invite you to the upcoming party!
               We expect you to be in a <span role="img">✨</span>{" "}
               cute-pinterest-girl <span role="img">✨</span> dress for the day
@@ -70,40 +67,23 @@ export default function Home() {
               you by clicking the button in top-right
               <span role="img">🩵</span>{" "}
             </p>
-            <div className="w3-center w3-container w3-bottom">
-              <div className="w3-row-padding w3-center">
-                <div className="w3-display-right">
-                  <img
-                    src="./assets/37C65BFA-D059-44EE-8E82-C355E163AB29_4_5005_c.jpeg"
-                    style={{
-                      width: "200px",
-                      height: "350px",
-                      marginLeft: "300px",
-                    }}
-                  />
-                </div>
-                <div className="w3-display-left">
-                  <p
-                    className="w3-large"
-                    style={{ fontFamily: "Dancing Script" }}
-                  >
-                    16th May, Thursday | 15:00
-                  </p>
-                  <p>
-                    <span role="img" aria-label="Location">
-                      📍
-                    </span>{" "}
-                    <a
-                      href="https://go.2gis.com/8lkny"
-                      className="w3-link"
-                      style={{ fontFamily: "Dancing Script" }}
-                    >
-                      Bliss House, Almaty
-                    </a>
-                  </p>
-                </div>
-              </div>
-            </div>
+          </div>
+          <div className="w3-center w3-container">
+              <p className="w3-large" style={{ fontFamily: "Dancing Script" }}>
+                16th May, Thursday | 15:00
+              </p>
+              <p>
+                <span role="img" aria-label="Location">
+                  📍
+                </span>{" "}
+                <a
+                  href="https://go.2gis.com/8lkny"
+                  className="w3-link"
+                  style={{ fontFamily: "Dancing Script" }}
+                >
+                  Bliss House, Almaty
+                </a>
+              </p>
           </div>
         </div>
       </body>
