@@ -34,7 +34,7 @@ export default function Home() {
                   onClick={homePage}
                   className="w3-button w3-display-left w3-large"
                 >
-                  back
+                  main
                 </button>
               </span>
               Instructions
@@ -68,7 +68,7 @@ export default function Home() {
               <span role="img">🩵</span>{" "}
             </p>
           </div>
-          <div className="w3-center w3-container">
+          <div className="w3-center w3-container w3-bottom">
             <div className="w3-row-padding w3-center">
               <div className="w3-display-right">
                 <img

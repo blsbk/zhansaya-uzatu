@@ -4,6 +4,12 @@ import { useEffect, useState } from "react";
 
 export default function Home() {
   const [data, setData] = useState([]);
+  const homePage = () => {
+    window.location.href = "https://zhansaya-uzatu.vercel.app";
+  };
+  const info = () => {
+    window.location.href = "https://zhansaya-uzatu.vercel.app/info";
+  };
 
   useEffect(() => {
     async function fetchData() {
@@ -43,7 +49,23 @@ export default function Home() {
               className="w3-center w3-padding-16"
               style={{ fontFamily: "Dancing Script" }}
             >
+              <span>
+                <button
+                  onClick={homePage}
+                  className="w3-button w3-display-left w3-large"
+                >
+                  main
+                </button>
+              </span>
               From your girls
+              <span>
+                <button
+                  onClick={info}
+                  className="w3-button w3-display-right w3-large"
+                >
+                  wishes
+                </button>
+              </span>
             </div>
           </div>
         </div>
